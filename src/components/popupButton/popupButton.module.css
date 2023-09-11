@@ -1,0 +1,26 @@
+.center{
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+  
+.center button{
+    padding: 25px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    color:#ffffff;
+    background: linear-gradient(to right,#f34c05,#EF6024);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #666;
+}
+.center button:hover {background-color: #f35e1e}
+
+.center button:active {
+  background-color: #f35e1e;
+  box-shadow: 5px 5px 5px #666;
+  transform: translateY(6px);
+}

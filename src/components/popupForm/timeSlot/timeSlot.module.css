@@ -1,0 +1,22 @@
+button{
+    padding: 15px 17x;
+    font-size: 12px;
+    font-weight: 500;
+    color:#ffffff;
+    background:#EF6024;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #666;
+}
+
+
+button:active {
+  box-shadow: 5px 5px 5px #666;
+  transform: translateY(6px);
+}
+
+li{
+  list-style: none;
+}
